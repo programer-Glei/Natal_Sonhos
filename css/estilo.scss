@@ -19,4 +19,32 @@ $border: 0.1rem solid rgba(255,255,255,0.2);
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+
+    &::-webkit-scrollbar-track{
+        background: $black;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: $blue;
+    }
+}
+
+body{
+    overflow-x: hidden;
+    background: $black;
+}
+
+
+/* HEADER */
+
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: $black;
+    padding: 1.5rem 9%;
+    display: flex;
 }
