@@ -73,4 +73,47 @@ body{
     .logo{
         @include title-text(2.5rem);
     }
+
+    .navbar{
+        a{
+            @include title-text(2rem);
+            margin: 0 1.5rem;
+
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+
+    .icons div, .icons a{
+        height: 4.5rem;
+        width: 4.5rem;
+        line-height: 4.5rem;
+        font-size: 2rem;
+        background: $white;
+        color: $black;
+        margin-left: 0.5rem;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover{
+            background: $blue;
+            color: $white;
+        }
+    }
+
+    #menu-btn{
+        display: none;
+    }
+
+    .search-form{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background: $black;
+        display: flex;
+        align-items: center;
+        padding: 0 9%;
+        border-top: $border;
+        border-bottom: $border;
+    }
 }
