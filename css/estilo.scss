@@ -10,6 +10,25 @@
     transition: all 0.2s linear;
 }
 
+@mixin title-text($titleVal) {
+    font-size: $titleVal;
+    color: $white;
+    text-transform: capitalize;
+}
+
+@mixin graph-text($graphVal) {
+    font-size: $graphVal;
+    color: $light-color;
+    line-height: 2;
+    padding: 1.5rem 0;
+}
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+}
+
 $blue:#0097e6;
 $black:#000;
 $white:#fff;
@@ -47,4 +66,11 @@ body{
     background: $black;
     padding: 1.5rem 9%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: $border;
+
+    .logo{
+        @include title-text(2.5rem);
+    }
 }
