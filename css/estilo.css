@@ -279,6 +279,19 @@ section {
     display: block;
     margin: 2rem;
   }
+  .home .cloud-1 {
+    top: 10%;
+  }
+  .home .moon {
+    width: 20rem;
+    z-index: 0;
+  }
+  .home .content p {
+    font-size: 2rem;
+  }
+  .home .content h3 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 450px) {
