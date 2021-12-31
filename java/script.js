@@ -29,4 +29,9 @@ window.onscroll = () =>{
     }else{
         document.querySelector('.header').classList.remove('active')
     }
+
+    let value = window.scrollY / 10
+    paralax.document.querySelector('.home .mountain').style.bottom = `${-value}%`
+    paralax.document.querySelector('.home .content').style.bottom = `${-value}%`
+    paralax.document.querySelector('.home .moon').style.bottom = `${-value}%`
 }
