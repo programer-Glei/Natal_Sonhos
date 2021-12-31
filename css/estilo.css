@@ -148,6 +148,19 @@ body {
   .header #menu-btn {
     display: inline-block;
   }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #000;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+  }
+  .header .navbar a {
+    display: block;
+    margin: 2rem;
+  }
 }
 
 @media (max-width: 450px) {

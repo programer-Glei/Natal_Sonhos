@@ -159,6 +159,19 @@ body{
         #menu-btn{
             display: inline-block;
         }
+
+        .navbar{
+            position: absolute;
+            top: 99%; left: 0; right: 0;
+            background: $black;
+            border-top: $border;
+            border-bottom: $border;
+
+            a{
+                display: block;
+                margin: 2rem;
+            }
+        }
     }
 }
 
