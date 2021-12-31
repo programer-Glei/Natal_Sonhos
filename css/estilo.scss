@@ -141,3 +141,29 @@ body{
         }
     }
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1200px){
+    .header{
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        #menu-btn{
+            display: inline-block;
+        }
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
