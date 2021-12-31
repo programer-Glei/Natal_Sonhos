@@ -106,5 +106,31 @@ body {
   padding: 0 9%;
   border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
   border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+  height: 6rem;
+  gap: 1rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.header .search-form.active {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.header .search-form input {
+  width: 100%;
+  background: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.header .search-form label {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.header .search-form label:hover {
+  color: #0097e6;
 }
 /*# sourceMappingURL=estilo.css.map */
