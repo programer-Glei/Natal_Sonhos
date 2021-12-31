@@ -19,6 +19,10 @@ html {
   scroll-padding-top: 8rem;
 }
 
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
 html::-webkit-scrollbar-track {
   background: #000;
 }
@@ -30,6 +34,10 @@ html::-webkit-scrollbar-thumb {
 body {
   overflow-x: hidden;
   background: #000;
+}
+
+section {
+  padding: 3rem 9%;
 }
 
 /* HEADER */
@@ -145,6 +153,9 @@ body {
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
   }
 }
 
