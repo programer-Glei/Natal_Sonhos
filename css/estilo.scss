@@ -69,6 +69,11 @@ body{
     align-items: center;
     justify-content: space-between;
     border-bottom: $border;
+    transform: translateY(-20rem);
+
+    &.active{
+        transform: translateY(0);
+    }
 
     .logo{
         @include title-text(2.5rem);
@@ -166,6 +171,11 @@ body{
             background: $black;
             border-top: $border;
             border-bottom: $border;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
 
             a{
                 display: block;
