@@ -24,16 +24,16 @@ window.onscroll = () =>{
     menuBtn.classList.remove('fa-times')
     navbar.classList.remove('active')
 
-    if(window.scrollY > 650){
+    if(window.scrollY > 600){
         document.querySelector('.header').classList.add('active')
     }else{
         document.querySelector('.header').classList.remove('active')
     }
 
     let value = window.scrollY / 10
-    paralax.document.querySelector('.home .mountain').style.bottom = `${-value}%`
-    paralax.document.querySelector('.home .content').style.bottom = `${value}%`
-    paralax.document.querySelector('.home .moon').style.marginTop = `${-value}%`
-    paralax.document.querySelector('.home .cloud-1').style.right = `${-value}%`
-    paralax.document.querySelector('.home .cloud-2').style.left = `${-value}%`
+    document.querySelector('.home .mountain').style.bottom = `${-value}%`
+    document.querySelector('.home .content').style.bottom = `${value}%`
+    document.querySelector('.home .moon').style.marginTop = `${-value}%`
+    document.querySelector('.home .cloud-1').style.left = `${-value}%`
+    document.querySelector('.home .cloud-2').style.right = `${-value}%`
 }
