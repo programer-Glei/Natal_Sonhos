@@ -40,6 +40,21 @@ section {
   padding: 3rem 9%;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: #0097e6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
 /* HEADER */
 .header {
   position: fixed;
@@ -278,7 +293,7 @@ section {
 }
 
 .about .content h3 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #fff;
   text-transform: capitalize;
   padding-top: 1.5rem;
