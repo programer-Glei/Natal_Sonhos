@@ -294,6 +294,17 @@ section{
         .box{
             text-align: center;
 
+            &:hover .image{
+
+                img{
+                    transform: scale(1.1);
+                }
+
+                .icons{
+                    transform: translateY(0);
+                }
+            }
+
             .image{
                 height: 30rem;
                 position: relative;
@@ -327,6 +338,35 @@ section{
                             background: $blue;
                             color: $white;
                         }
+                    }
+                }
+            }
+
+            .content{
+                padding: 1.5rem 0;
+
+                .stars{
+                    padding-bottom: 0.5rem;
+
+                    i{
+                        font-size: 1.7rem;
+                        color: $blue;
+                    }
+                }
+
+                h3{
+                    padding: 1rem 0;
+                    @include title-text(2rem);
+                }
+
+                .price{
+                    font-size: 2rem;
+                    color: $white;
+
+                    span{
+                        color: $light-color;
+                        font-size: 1.5rem;
+                        text-decoration: line-through;
                     }
                 }
             }
