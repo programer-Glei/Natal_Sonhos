@@ -312,6 +312,22 @@ section{
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    gap: 0.5rem;
+                    transform: translateY(-100%);
+
+                    a{
+                        height: 5rem;
+                        width: 5rem;
+                        line-height: 5rem;
+                        font-size: 2rem;
+                        background: $white;
+                        color: $black;
+
+                        &:hover{
+                            background: $blue;
+                            color: $white;
+                        }
+                    }
                 }
             }
         }

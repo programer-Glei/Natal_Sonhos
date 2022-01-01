@@ -345,6 +345,23 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 0.5rem;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.products .box-container .box .image .icons a {
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  background: #fff;
+  color: #000;
+}
+
+.products .box-container .box .image .icons a:hover {
+  background: #0097e6;
+  color: #fff;
 }
 
 /*MEDIA QUERIES*/
