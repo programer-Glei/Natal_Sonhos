@@ -160,7 +160,7 @@ section{
 .home{
     position: relative;
     overflow: hidden;
-    min-height: 100vh;
+    height: 100vh;
     background: url(../img/home-bg.jpg) no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -231,6 +231,41 @@ section{
         position: absolute;
         top: 5rem; right: 0;
         width: 60vw;
+    }
+}
+
+/* SECTION ABOUT */
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    .image{
+        flex: 1 1 42rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .content{
+        flex: 1 1 42rem;
+
+        span{
+            font-size: 2rem;
+            color: $blue;
+        }
+
+        h3{
+            @include title-text(2.5rem);
+            padding-top: 1.5rem;
+        }
+
+        p{
+            @include graph-text(1.6rem);
+        }
     }
 }
 

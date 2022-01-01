@@ -153,7 +153,7 @@ section {
 .home {
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  height: 100vh;
   background: url(../img/home-bg.jpg) no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -241,6 +241,54 @@ section {
   top: 5rem;
   right: 0;
   width: 60vw;
+}
+
+/* SECTION ABOUT */
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.about .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about .image img {
+  width: 100%;
+}
+
+.about .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.about .content span {
+  font-size: 2rem;
+  color: #0097e6;
+}
+
+.about .content h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: capitalize;
+  padding-top: 1.5rem;
+}
+
+.about .content p {
+  font-size: 1.6rem;
+  color: #aaa;
+  line-height: 2;
+  padding: 1.5rem 0;
 }
 
 /*MEDIA QUERIES*/
