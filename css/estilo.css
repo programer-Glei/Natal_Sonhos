@@ -55,6 +55,18 @@ section {
   color: #000;
 }
 
+.heading {
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.heading span {
+  color: #0097e6;
+}
+
 /* HEADER */
 .header {
   position: fixed;

@@ -79,6 +79,16 @@ section{
     }
 }
 
+.heading{
+    text-align: center;
+    padding-bottom: 3rem;
+    @include title-text(3rem);
+
+    span{
+        color: $blue;
+    }
+}
+
 
 /* HEADER */
 
