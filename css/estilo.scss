@@ -394,7 +394,12 @@ section{
             padding: 3rem;
 
             &:nth-child(even){
-                
+                background: $light-bg;
+                border-radius: 0.5rem;
+            }
+
+            &:hover i{
+                transform: translateY(-1rem);
             }
 
             i{

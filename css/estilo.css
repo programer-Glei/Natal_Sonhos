@@ -430,6 +430,16 @@ section {
   padding: 3rem;
 }
 
+.services .box-container .box:nth-child(even) {
+  background: #0a0a0a;
+  border-radius: 0.5rem;
+}
+
+.services .box-container .box:hover i {
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
 .services .box-container .box i {
   height: 6rem;
   width: 6rem;
