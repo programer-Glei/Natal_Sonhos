@@ -477,6 +477,31 @@ section {
   margin-bottom: 1.5rem;
 }
 
+.contact form {
+  margin: 1rem auto;
+  max-width: 60rem;
+  text-align: center;
+}
+
+.contact form .box {
+  width: 100%;
+  padding: 1.5rem 0;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.8rem;
+  background: none;
+}
+
+.contact form .box:focus {
+  border-color: #0097e6;
+}
+
+.contact form textarea {
+  height: 15rem;
+  resize: none;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
   .header {
