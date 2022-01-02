@@ -446,6 +446,11 @@ section{
         max-width: 60rem;
         text-align: center;
 
+        h3{
+            @include title-text(3rem);
+            margin-bottom: 1rem;
+        }
+
         .box{
             width: 100%;
             padding: 1.5rem 0;

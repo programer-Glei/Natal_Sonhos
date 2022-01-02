@@ -483,6 +483,13 @@ section {
   text-align: center;
 }
 
+.contact form h3 {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
 .contact form .box {
   width: 100%;
   padding: 1.5rem 0;
