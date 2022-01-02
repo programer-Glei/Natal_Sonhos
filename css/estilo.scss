@@ -384,6 +384,42 @@ section{
     }
 }
 
+.services{
+
+    .box-container{
+        @include grid(31rem);
+
+        .box{
+            text-align: center;
+            padding: 3rem;
+
+            &:nth-child(even){
+                
+            }
+
+            i{
+                height: 6rem;
+                width: 6rem;
+                line-height: 6rem;
+                border-radius: 50%;
+                font-size: 2rem;
+                color: $white;
+                background: $blue;
+                margin-bottom: 1.5rem;
+            }
+
+            h3{
+                @include title-text(2rem);
+            }
+
+            p{
+                @include graph-text(1.6rem);
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
 
 /*MEDIA QUERIES*/
 

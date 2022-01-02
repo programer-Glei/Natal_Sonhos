@@ -417,6 +417,44 @@ section {
   text-decoration: line-through;
 }
 
+.services .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+
+.services .box-container .box {
+  text-align: center;
+  padding: 3rem;
+}
+
+.services .box-container .box i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
+  background: #0097e6;
+  margin-bottom: 1.5rem;
+}
+
+.services .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.services .box-container .box p {
+  font-size: 1.6rem;
+  color: #aaa;
+  line-height: 2;
+  padding: 1.5rem 0;
+  padding-bottom: 0;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
   .header {
