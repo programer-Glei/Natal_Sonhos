@@ -546,7 +546,8 @@ section{
 
             h3{
                 @include title-text(2.2rem);
-                padding: 1rem 0;
+                padding-bottom: 2rem;
+                padding-top: 1rem;
             }
 
             .link{
@@ -575,6 +576,28 @@ section{
                 border: $border;
                 color: $white;
                 margin:1rem 0;
+                background: none;
+                font-size: 1.6rem;
+            }
+
+            .share{
+                margin-top:2rem;
+
+                a{
+                    height: 4.5rem;
+                    width: 4.5rem;
+                    line-height: 4.5rem;
+                    font-size: 2rem;
+                    background-color: $white;
+                    color: $black;
+                    margin-right: 0.5rem;
+                    text-align: center;
+
+                    &:hover{
+                        background-color: $blue;
+                        color: $white;
+                    }
+                }
             }
         }
     }

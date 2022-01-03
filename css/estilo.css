@@ -601,7 +601,8 @@ section {
   font-size: 2.2rem;
   color: #fff;
   text-transform: capitalize;
-  padding: 1rem 0;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 .footer .box-container .box .link {
@@ -630,6 +631,28 @@ section {
   border: 0.1rem solid rgba(255, 255, 255, 0.2);
   color: #fff;
   margin: 1rem 0;
+  background: none;
+  font-size: 1.6rem;
+}
+
+.footer .box-container .box .share {
+  margin-top: 2rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background-color: #0097e6;
+  color: #fff;
 }
 
 /*MEDIA QUERIES*/
