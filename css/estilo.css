@@ -607,6 +607,29 @@ section {
 .footer .box-container .box .link {
   display: block;
   color: #aaa;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.footer .box-container .box .link i {
+  color: #0097e6;
+  padding-right: 0.5rem;
+}
+
+.footer .box-container .box .link:hover {
+  color: #0097e6;
+}
+
+.footer .box-container .box .link:hover i {
+  padding-right: 2rem;
+}
+
+.footer .box-container .box .email {
+  width: 100%;
+  padding: 1.2em 1.4rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  margin: 1rem 0;
 }
 
 /*MEDIA QUERIES*/

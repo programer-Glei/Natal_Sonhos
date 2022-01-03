@@ -552,6 +552,29 @@ section{
             .link{
                 display: block;
                 color: $light-color;
+                padding:1rem 0;
+                font-size:1.5rem;
+
+                i{
+                    color: $blue;
+                    padding-right: 0.5rem;
+                }
+
+                &:hover{
+                    color: $blue;
+
+                    i{
+                        padding-right:2rem;
+                    }
+                }
+            }
+
+            .email{
+                width: 100%;
+                padding: 1.2em 1.4rem;
+                border: $border;
+                color: $white;
+                margin:1rem 0;
             }
         }
     }
