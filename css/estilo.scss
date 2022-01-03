@@ -536,6 +536,27 @@ section{
     }
 }
 
+.footer{
+    background-color: $light-bg;
+
+    .box-container{
+        @include grid(25rem);
+
+        .box{
+
+            h3{
+                @include title-text(2.2rem);
+                padding: 1rem 0;
+            }
+
+            .link{
+                display: block;
+                color: $light-color;
+            }
+        }
+    }
+}
+
 
 /*MEDIA QUERIES*/
 
