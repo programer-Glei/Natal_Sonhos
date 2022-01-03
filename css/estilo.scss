@@ -515,6 +515,21 @@ section{
                     justify-content: space-between;
                     padding: 2rem;
                     background-color: $light-bg;
+                    margin-top: 2rem;
+
+                    a{
+                        font-size: 1.6rem;
+                        color: $white;
+
+                        i{
+                            color: $blue;
+                            padding-right: 0.5rem;
+                        }
+
+                        &:hover{
+                            color: $blue;
+                        }
+                    }
                 }
             }
         }

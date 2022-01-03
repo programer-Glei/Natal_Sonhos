@@ -568,6 +568,21 @@ section {
           justify-content: space-between;
   padding: 2rem;
   background-color: #0a0a0a;
+  margin-top: 2rem;
+}
+
+.blogs .box-container .box .content .icons a {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.blogs .box-container .box .content .icons a i {
+  color: #0097e6;
+  padding-right: 0.5rem;
+}
+
+.blogs .box-container .box .content .icons a:hover {
+  color: #0097e6;
 }
 
 /*MEDIA QUERIES*/
