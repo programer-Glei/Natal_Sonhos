@@ -472,6 +472,30 @@ section{
     }
 }
 
+.blogs{
+
+    .box-container{
+        @include grid(31rem);
+
+        .box{
+            text-align: center;
+
+            .content{
+                padding-top: 2rem;
+
+                h3{
+                    @include title-text(2rem);
+                }
+
+                p{
+                    @include graph-text(1.6rem);
+                    padding: 2rem;
+                }
+            }
+        }
+    }
+}
+
 
 /*MEDIA QUERIES*/
 

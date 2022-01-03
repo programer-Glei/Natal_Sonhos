@@ -509,6 +509,36 @@ section {
   resize: none;
 }
 
+.blogs .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+}
+
+.blogs .box-container .box {
+  text-align: center;
+}
+
+.blogs .box-container .box .content {
+  padding-top: 2rem;
+}
+
+.blogs .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.blogs .box-container .box .content p {
+  font-size: 1.6rem;
+  color: #aaa;
+  line-height: 2;
+  padding: 1.5rem 0;
+  padding: 2rem;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1200px) {
   .header {
